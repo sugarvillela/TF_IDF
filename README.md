@@ -1,7 +1,7 @@
 # TF_IDF
 Implementation of Term_Frequency*Inverse_Document_Frequency for Information Retrieval
 
-* Sample Output:
+## Sample Output:
 
 * run:
 * Enter a word to search or Q/q to quit
