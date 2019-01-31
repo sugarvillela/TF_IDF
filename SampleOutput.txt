@@ -1,0 +1,33 @@
+run:
+Enter a word to search or Q/q to quit
+space
+
+'space' returned 18 results
+(Results in descending order of relevance)
+
+DOC   COUNT   FREQ         TFIDF
+================================================
+11    17      0.033597     0.037330
+12    10      0.019011     0.021124
+17    8       0.016949     0.018832
+18    5       0.013550     0.015056
+14    6       0.011342     0.012602
+02    4       0.009281     0.010312
+16    4       0.009238     0.010264
+01    4       0.008511     0.009456
+20    3       0.006098     0.006775
+03    2       0.005764     0.006404
+13    3       0.005525     0.006139
+07    2       0.005510     0.006122
+15    2       0.005333     0.005926
+04    2       0.004751     0.005278
+08    1       0.002849     0.003166
+09    1       0.002193     0.002437
+05    1       0.002004     0.002227
+19    1       0.002066     0.002296
+================================================
+
+Enter a word to search or Q/q to quit
+xylophone
+Your search - xylophone - did not match any documents.
+Enter a word to search or Q/q to quit
