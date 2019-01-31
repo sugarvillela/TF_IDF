@@ -58,10 +58,10 @@ public class InvertedIndex {
             docMap.keySet().forEach((docNum) -> {
                 Node node=docMap.get( docNum );
                 node.setTermFreq(
-                    (float)node.count/numTerms( docNum ) 
+                    (float)node.count/numTerms( docNum )
                 );
                 node.setTFIDF(
-                    node.termFreq*(numDocsTotal/docMap.size() )
+                    node.termFreq*IDF
                 );
             });
         });
