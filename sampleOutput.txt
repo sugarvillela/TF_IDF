@@ -1,0 +1,18 @@
+Enter a word to search or Q/q to quit
+president
+
+'president' returned 4 results
+(Results in descending order of relevance)
+
+DOC   COUNT   FREQ         TFIDF
+================================================
+03    1       0.002882     0.004638
+08    1       0.002849     0.004585
+02    1       0.002320     0.003734
+05    1       0.002004     0.003225
+================================================
+
+Enter a word to search or Q/q to quit
+xylophone
+Your search - xylophone - did not match any documents.
+Enter a word to search or Q/q to quit
