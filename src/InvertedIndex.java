@@ -53,7 +53,7 @@ public class InvertedIndex {
         /*  IndexCreator calls after map is filled.
             Iterate all nodes to set termFreq and TFIDF */
         map.keySet().forEach((word) -> {
-            float IDF=numDocsTotal/(float)docFreq( word ); 
+            float IDF=(float)Math.log( numDocsTotal/docFreq( word ) ); 
             HashMap<String, Node> docMap = map.get(word);
             docMap.keySet().forEach((docNum) -> {
                 Node node=docMap.get( docNum );

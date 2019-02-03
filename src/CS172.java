@@ -22,8 +22,13 @@ public class CS172 {
             if( userin.equals("q") ){
                 break;
             }
-            index.search( userin );
-            index.dispSearchResult();
+            if( userin.equals("disp") ){
+                index.dispPretty();
+            }
+            else{
+                index.search( userin );
+                index.dispSearchResult();
+            }
         }
     }
     static void testInvertedIndex(){

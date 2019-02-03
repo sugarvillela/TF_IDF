@@ -39,7 +39,7 @@ public class IndexCreator {
         if(!F.good()){//return false on the first bad file name
             return false;
         }
-        System.out.println( docNum+" good");
+        //System.out.println( docNum+" good");
         String dWord;
         Integer count = 0;
         while(!F.done()){
