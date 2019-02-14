@@ -3,7 +3,7 @@ Implementation of Term_Frequency*Inverse_Document_Frequency for Information Retr
 
 ## Instructions
 * Make sure data files are in home directory. File open uses relative path.
-* Data files must be of the format 'file01.txt.  (Mainly the numeric part is 2 digits starting at index 4)
+* Data files must be of the format 'file01.txt'.  (Mainly the numeric part is 2 digits starting at index 4)
 * Stoplist.txt is a list of words to skip, like 'a' and 'the'
 * To display inverted index, type 'disp'
 * To quit, type 'q'
