@@ -1,8 +1,12 @@
 # TF_IDF
 Implementation of Term_Frequency*Inverse_Document_Frequency for Information Retrieval
 
+## Two Implementations
+* I wrote this in Java, then I translated a Python version
+
 ## Instructions
-* Make sure data files are in home directory. File open uses relative path.
+* For Java version, make sure data files are in home directory. File open uses relative path.
+* For Python version, just use relative path. My file utilities prepend the absolute path for you.
 * Data files must be of the format 'file01.txt'.  (Mainly the numeric part is 2 digits starting at index 4)
 * Stoplist.txt is a list of words to skip, like 'a' and 'the'
 * To display inverted index, type 'disp'
